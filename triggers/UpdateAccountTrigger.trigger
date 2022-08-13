@@ -12,6 +12,7 @@ trigger UpdateAccountTrigger on Account (after insert) {
        		 //Whenever you are inserting a list you definitely need to check size
        		 if(conListInsert.size() > 0){
             		INSERT conListInsert;  //Actual insert process of
+                 //actual insert action in the condition to check
         	}
     	}
 }
