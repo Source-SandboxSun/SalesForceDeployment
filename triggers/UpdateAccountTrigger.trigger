@@ -13,6 +13,7 @@ trigger UpdateAccountTrigger on Account (after insert) {
        		 if(conListInsert.size() > 0){
             		INSERT conListInsert;  //Actual insert process of
                  //actual insert action in the condition to check
+                 INSERT conListInsert;
         	}
     	}
 }
